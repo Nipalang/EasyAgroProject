@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <title>EASYAGRO | {{ title }}</title>
+</head>
+<body>
+    <nav>
+        
+        <div class="navbar">
+            
+            <div class="head">
+                <h1>Easy<i>Agro </i></h1>          
+            </div>
+            
+            <div class="navbar-ul">
+                <ul>
+                    <li><a href="{% url 'home' %}" >HOME</a></li>
+                    <li><a href="{% url 'about' %}" >ABOUT</a></li>
+                    <li><a href="{% url 'service' %}" >SERVICES</a></li>
+                    <li><a href="{% url 'product' %}" >PRODUCTS</a></li>
+                    <li><a href="{% url 'contact' %}" >CONTACT US</a></li>
+                    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                    <!-- <li><a href="login.html">LOGIN</a></li> -->
+                    <li><a href="signup.html">SIGN UP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    {% block content %}
+    {% endblock content %}
+<div class="footercontainer">
+    <div class="footer">
+        <div class="footer-heading footer-4">
+            <h2>Easy<i>A</i>gro</h2>
+            <a href="home.html">Home</a>
+            <a href="About us.html">About</a>
+            <a href="contact us.html">Contact</a>
+            <a href="service.html">Services</a>
+    </div>
+        <div class="footer-heading footer-1">
+            <h2>About Us</h2>
+            <a href="a">Blog</a>
+            <a href="a">Customers</a>
+            <a href="a">Investors</a>
+            <a href="a">Terms of service</a>
+        </div>
+        <div class="footer-heading footer-2">
+            <h2>Contact Us</h2>
+                <a href="a"><img src="/images/WebSnap for Facebook-logo.png (4000×2500)_1.jpg" alt=""></a>
+                <a href="a"><img src="/images/WebSnap for kiev-ukraine-april-16-2015-260nw-275817101.jpg (266×280)_1.jpg" alt=""></a>
+                <a href="a"><img src="/images/WebSnap for ig logo - Google Search_1.jpg" alt=""></a>
+                
+
+    </div>  
+</div>
+<div class="copyright">
+    <h4>copyright&copy; 2022</h4>
+</div>
+</body>
+</html>

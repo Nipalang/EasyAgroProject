@@ -1,0 +1,353 @@
+*{  
+    /* font-family: 'Poppins', sans-serif; */
+    box-sizing: border-box;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 59, 8);
+    color: white;
+    height: 50px;
+    align-items: center;
+    border-radius: 0%;
+    margin-top: 10px;
+    padding-left: 0px;
+    width: 100%;
+    
+
+}
+.navbar-ul{
+    list-style-type: none;
+    
+    
+}
+.navbar-ul li{
+    display: inline-block;
+    padding: 20PX 10PX;
+    
+}
+.navbar .navbar-ul :hover{
+    color: chartreuse;
+}
+.navbar-ul li a{
+    color: beige;
+    text-decoration: none;
+}
+.head i{
+    color: orangered;
+}
+.header{
+    width:100% ;
+    min-height:100vh ;
+    background-image:  linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+    url("/images/IMG-20220922-WA0007.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    color: white;
+    margin-top: 20px;
+    margin-left: 0%;
+
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 45px;
+    color: orangered;
+}   
+.text-box p{
+    font-size: 14px;
+    font-size: medium;
+}
+.text-box a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 40px;
+    border: 2px solid green;
+    margin-top: 10px;
+    background: transparent;
+    transition: .6s;
+}
+.text-box a:hover{
+    background: rgba(255, 140, 0, 0.459);
+}
+.container h1{
+    color: green;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-decoration: underline;
+    text-shadow: 1px 1px;
+    padding: 0px;
+    text-align: center;
+}
+  
+.about-us{
+    
+    display: flex;
+    justify-content: space-around;
+    background-size: cover;
+    width: 100%;
+    font-size: large;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: black;
+    
+} 
+.about-us p{
+    font-family: Verdana;
+    font-size: larger;
+    text-align: justify;
+    margin-top: 40px;
+}
+.about-us img{
+    float: right;
+    /* border: 2px solid black; */
+    margin-left: 3%;
+    margin-top: 0%;
+    margin-right: 8%;
+    height: 350px;
+    border-radius: 25px;
+}
+
+.button{
+    text-align: center;
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 300px;
+    margin: 8px auto 0;
+    /* box-shadow: 1px 2px black; */
+    
+}
+.button input{
+            border-left: 10px;
+            box-shadow: 1px 1px black;
+            border-right: 200px;
+            height: 50px;
+            width: 200px;
+            padding-left: 100px;
+            padding-right: 100px;
+            border: 2px solid black;
+            border-radius: 15px;
+            text-align: center;
+            font-size: large;
+            font-weight: 300;
+            /* background-color: yellowgreen; */ 
+        }
+        /* .button input:hover{ */
+            /* color: white; */
+        /* } */
+        .button p button{
+            height: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            text-align: justify;
+            
+        }
+        button{
+            border-radius: 25px;
+            /* border-color: crimson; */
+            border-right: 10px;
+            box-shadow: 1px 1px black;
+            border-left: 10px;
+            text-align: center;
+        }
+        .button input:hover{
+            color: green;
+        }
+
+
+
+        .form{
+            text-align: center;
+            display: block;
+            width: 300px;
+            background-size: cover;
+            /* background: transparent; */
+            margin: 8px auto 0;
+            border: 1px solid black;
+            /* background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), */
+             /* url("./images/pexels-photo-321542.jpeg");  */
+            /* background: url("./images/download.jpeg") rgba(0, 0, 0, 0), rgba(0, 0, 0, 0); */
+        }
+        input[type=text], select {
+            /* width: 100%; */
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            text-decoration: solid;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            color: white;
+          }
+          
+          input[type=submit] {
+            width: 100%;
+            background-color: #55f155;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #ccc;
+          }
+        /* input[type=text]:hover { */
+          /* background-color: #4CAF50; */
+        /* } */
+          div {
+            border-radius: 5px;
+            /* background-color: #f2f2f2; */
+            padding: 20px;
+          }
+          .login{
+            width: 300px;
+            box-sizing: border-box;
+            display: block;
+            text-align: center;
+            margin: 8px auto 0;
+            padding: 20px;
+            margin-top: 90px;
+            border: 1px solid black;
+            /* background:rgba(0, 0, 0, 0.5) */
+          } 
+          .login:hover{
+            background-color: #66e766;
+            background: transparent;
+          }
+          .service{
+            padding: 100px 0;
+            margin-top: 50px;
+            background-image:  linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), 
+            url("./images/wheat-field-wheat-cereals-grain-39015.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .max-width{
+            max-width: 1300px;
+            padding: 0 45px;
+            margin: auto;
+        }
+        .max-width h1{
+            text-align: center;
+            position: relative;
+            font-size: 50px;
+            font-weight: 500;
+            margin-bottom: 60px;
+            padding-bottom: 5px;
+            /* outline: ; */
+            color: #55f155;
+        }
+        .max-width h1 ::after{
+            content: '';
+            position:absolute ;
+            width:180px ;
+            height: 3px;
+            background:#fff;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50);
+        }
+        .content{
+            display: inline-flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-between;
+        }
+        .card{
+            padding: 30px 25px;
+            margin: 20px;
+            width: calc(20%-10px);
+            border: 6px;
+            border-radius: 10px;
+            background: #fff;
+            text-align: center;
+            user-select: none;
+            cursor: pointer;
+            transition:  0.3s ease;
+        }
+        .card:hover{
+            background-color: #66e766;
+        }
+        .box{
+            transition: all 0.3s ease;
+        }
+        .card:hover .box{
+            transform: scale(1.05);
+        }
+        .box h3{
+            font-size: 25px;
+            padding: 10px 0 7px;
+        }
+
+        .footer{
+            width: 100%;
+            height: 30wh;
+            background-color: rgb(40, 59, 8);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            border-radius: 0%;
+            margin-top: 5%;
+        }  
+        .footer-heading{
+            /* color: white; */
+              display: flex;
+              flex-direction: column;
+              margin-right: 4rem;
+              
+          }
+          .footer-heading h2 {
+              margin-bottom: 2rem;
+              color: white;
+          }
+          .footer-heading a img{
+            width: 25px;
+            height: 25px;
+          }
+          .footer-heading a {
+              color: white;
+              text-decoration: none;
+              margin-bottom: 0.5rem;
+              justify-content: space-between;
+          }
+          .footer-heading a:hover {
+          color: #55f155;
+          transition: 0.3s;
+          width: 100%;
+          cursor: pointer;
+          }
+          .copyright{
+
+            width: 100%;
+            background-color: rgb(40, 59, 8);
+            border-radius: 0%;
+            display: flex;
+            justify-content: center;
+            color: white;
+            border-top: 2px solid white;
+          }
+
+                
+        
+       
