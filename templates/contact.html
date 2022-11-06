@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="us">
+    <h1>GET IN TOUCH</h1>
+    <h2>Please contact us using this form for further enquiries.</h2>
+</div>
+<div class="button">
+    <form method="post">
+        {% csrf_token %} 
+    <input type="text" placeholder="Fullname" name="name" >
+    <input type="email" placeholder="Email" name="email" >
+    <input type="text" placeholder="Subject" name="subject" >
+    <textarea rows="10" name="message" name>
+
+    </textarea>
+    <button type="submit">submit</a></button>
+    </form>
+    
+    <!-- <button><a href="">Submit</a></button> -->
+    
+</div>
+{% endblock content %}
